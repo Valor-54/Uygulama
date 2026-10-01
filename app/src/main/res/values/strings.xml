@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WarPad Pro</string>
+    <string name="app_tagline">Floating Virtual Gamepad &amp; Overlay</string>
+    <string name="start_controls">Kontrolleri Başlat</string>
+    <string name="stop_controls">Kontrolleri Durdur</string>
+    <string name="edit_mode">Düzenleme Modu</string>
+    <string name="reset_controls">Tuşları Sıfırla</string>
+    <string name="opacity_settings">Şeffaflık Ayarları</string>
+    <string name="joystick_settings">Joystick Ayarları</string>
+    <string name="save_profile">Düzeni Kaydet</string>
+    <string name="load_profile">Düzeni Yükle</string>
+    <string name="geforce_now_mode">GeForce NOW &amp; Bulut Oyun Modu</string>
+    <string name="war_thunder_profile">Oyun Kontrolü (Varsayılan)</string>
+    <string name="xbox_profile">Xbox Standart Gamepad</string>
+    <string name="fps_profile">FPS / Nişancı Düzeni</string>
+    <string name="notification_title">WarPad Pro Gamepad Aktif</string>
+    <string name="notification_desc">Sanal gamepad tuşları ekran üzerinde çalışıyor</string>
+    <string name="notification_stop">Durdur</string>
+    <string name="permission_overlay_title">Ekran Üzerinde Gösterme İzni</string>
+    <string name="permission_overlay_desc">Sanal tuşların GeForce NOW ve diğer oyunların üzerinde görünebilmesi için \'Diğer uygulamaların üzerinde görüntüleme\' izni gereklidir.</string>
+    <string name="permission_grant">İzin Ver</string>
+    <string name="tech_feasibility_title">Gerçek Gamepad Girdisi ve Android Güvenliği</string>
+</resources>

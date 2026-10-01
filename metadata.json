@@ -1,0 +1,6 @@
+{
+  "name": "WarPad Pro",
+  "description": "Floating virtual gamepad overlay for mobile and cloud games with dual-zone touch controls and customizable layouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
