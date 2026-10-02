@@ -53,6 +53,8 @@ fun VirtualJoystick(
     isEditMode: Boolean = false,
     testTag: String = "gamepad_joystick",
     onMove: (x: Float, y: Float) -> Unit,
+    onTouchStart: () -> Unit = {},
+    onTouchEnd: () -> Unit = {},
     onClickThumb: () -> Unit = {}
 ) {
     var knobOffset by remember { mutableStateOf(Offset.Zero) }
@@ -69,6 +71,7 @@ fun VirtualJoystick(
                         val pointerId = down.id
                         down.consume()
                         isDragging = true
+                        onTouchStart()
 
                         // Base center is ALWAYS strictly fixed at the center of the control box
                         val baseCenter = Offset(size.width / 2f, size.height / 2f)
@@ -134,6 +137,7 @@ fun VirtualJoystick(
                             isDragging = false
                             knobOffset = Offset.Zero
                             onMove(0f, 0f)
+                            onTouchEnd()
                         }
                     }
                 }
